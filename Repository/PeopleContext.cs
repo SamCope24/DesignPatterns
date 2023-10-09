@@ -4,6 +4,9 @@ namespace DesignPatterns.Repository;
 
 public class PeopleContext : DbContext
 {
+    private static readonly ILoggerFactory _loggerFactory = 
+        LoggerFactory.Create(builder => builder.AddConsole());
+
     public DbSet<Person>? People { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -20,6 +23,8 @@ public class PeopleContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseNpgsql("Host=localhost;Port=15432;Database=Repository;Username=postgres;Password=postgres");
+        optionsBuilder
+        .UseLoggerFactory(_loggerFactory)
+        .UseNpgsql("Host=localhost;Port=15432;Database=Repository;Username=postgres;Password=postgres");
     }
 }
