@@ -1,6 +1,4 @@
-using System;
-
-namespace DesignPatterns.Adapter;
+namespace DesignPatterns.Adapter.Data;
 
 public class DatabaseAccessAdapter<TDatabase> :
     IReadOnlyDatabase<TDatabase>, IReadWriteDatabase<TDatabase>, IDisposable

@@ -1,4 +1,4 @@
-namespace DesignPatterns.Adapter;
+namespace DesignPatterns.Adapter.Data;
 
 public interface IReadOnlyDatabase<out TDatabase> where TDatabase : notnull, Database
 {

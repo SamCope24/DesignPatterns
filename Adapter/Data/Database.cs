@@ -1,6 +1,4 @@
-using System;
-
-namespace DesignPatterns.Adapter;
+namespace DesignPatterns.Adapter.Data;
 
 public class Database : IDisposable
 {

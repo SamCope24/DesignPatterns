@@ -1,4 +1,4 @@
-namespace DesignPatterns.Adapter;
+namespace DesignPatterns.Adapter.Data;
 
 public class Query<TDatabase> where TDatabase : notnull, Database
 {

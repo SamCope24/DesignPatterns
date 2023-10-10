@@ -1,4 +1,4 @@
-namespace DesignPatterns.Adapter;
+namespace DesignPatterns.Adapter.Data;
 
 public class Command<TDatabase> where TDatabase : notnull, Database
 {
