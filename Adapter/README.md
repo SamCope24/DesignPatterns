@@ -1,0 +1,3 @@
+## The Adapter Pattern
+
+The Adapter design pattern, also known as the Wrapper pattern, is a structural design pattern that acts as a bridge between two incompatible interfaces. This type of design pattern comes under structural pattern as it combines the capability of two independent interfaces. This pattern involves a single class called an adapter that is responsible for joining functionalities of independent or incompatible interfaces. 

@@ -1,0 +1,3 @@
+## The Composite Pattern
+
+The Composite design pattern is a structural pattern used for treating individual objects and compositions of objects uniformly. It helps clients treat individual objects and compositions of objects the same way, even though they represent different levels of a hierarchy or different levels of complexity. This pattern is particularly useful when dealing with tree-structured data, allowing for the individual leaf nodes and compositions of nodes to be worked with in a uniform manner.
