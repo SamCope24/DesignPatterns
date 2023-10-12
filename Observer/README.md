@@ -1,0 +1,3 @@
+## The Observer Pattern
+
+The Observer pattern is a behavioural design pattern that defines a one-to-many dependency between objects so that when one object changes its state, all its dependents are notified and updated automatically. It is mainly used for implementing distributed event handling systems, in "listener" or "subscriber" scenarios, often in modern user interfaces, real-time data feeds, or in scenarios where data changes need to be reflected in multiple points of a system without tight coupling of the components.
