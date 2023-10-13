@@ -6,7 +6,7 @@ public class Observer : IObserver
     {
         if (subject is Subject s)
         {
-            System.Console.WriteLine($"Observer: I know your state is: {s.State}");
+            Console.WriteLine($"Observer: I know your state is: {s.State}");
         }
     }
 }
